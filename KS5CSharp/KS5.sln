@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS5.Main", "ParallelPortC#\KS5.Main.csproj", "{F05013A2-47C6-4583-94E6-B64F4639195E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0417A79-CFC3-44B7-AFBF-0CA7F74BDC88} = {B0417A79-CFC3-44B7-AFBF-0CA7F74BDC88}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS5.Controller", "KS5.BaseController\KS5.Controller.csproj", "{B0417A79-CFC3-44B7-AFBF-0CA7F74BDC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS5.ChessEngine", "ChessEngine\KS5.ChessEngine.csproj", "{755E5BE7-D354-493A-8610-90CD33279BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS5.ChessGame", "ChessGame\KS5.ChessGame.csproj", "{69522F0F-F90B-4BF4-B782-2773D3094256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F05013A2-47C6-4583-94E6-B64F4639195E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05013A2-47C6-4583-94E6-B64F4639195E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05013A2-47C6-4583-94E6-B64F4639195E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05013A2-47C6-4583-94E6-B64F4639195E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0417A79-CFC3-44B7-AFBF-0CA7F74BDC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0417A79-CFC3-44B7-AFBF-0CA7F74BDC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0417A79-CFC3-44B7-AFBF-0CA7F74BDC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0417A79-CFC3-44B7-AFBF-0CA7F74BDC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755E5BE7-D354-493A-8610-90CD33279BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755E5BE7-D354-493A-8610-90CD33279BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755E5BE7-D354-493A-8610-90CD33279BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755E5BE7-D354-493A-8610-90CD33279BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69522F0F-F90B-4BF4-B782-2773D3094256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69522F0F-F90B-4BF4-B782-2773D3094256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69522F0F-F90B-4BF4-B782-2773D3094256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69522F0F-F90B-4BF4-B782-2773D3094256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
