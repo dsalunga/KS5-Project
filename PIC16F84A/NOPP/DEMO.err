@@ -1,0 +1,11 @@
+Warning[215] C:\NOPP\DEMO.ASM 11 : Processor superseded by command line.  Verify processor symbol.
+Message[301] C:\PROGRAM FILES\MPLAB IDE\MCHIP_TOOLS\P16F84.INC 37 : MESSAGE: (Processor-header file mismatch.  Verify selected processor.)
+Error[126]   C:\PROGRAM FILES\MPLAB IDE\MCHIP_TOOLS\P16F84.INC 116 : Argument out of range (must be greater than or equal to 255)
+Error[126]   C:\PROGRAM FILES\MPLAB IDE\MCHIP_TOOLS\P16F84.INC 117 : Argument out of range (__MAXRAM must be used first)
+Error[126]   C:\PROGRAM FILES\MPLAB IDE\MCHIP_TOOLS\P16F84.INC 117 : Argument out of range (__MAXRAM must be used first)
+Error[126]   C:\PROGRAM FILES\MPLAB IDE\MCHIP_TOOLS\P16F84.INC 117 : Argument out of range (__MAXRAM must be used first)
+Error[126]   C:\NOPP\DEMO.ASM 13 : Argument out of range (not a valid config register address)
+Warning[207] C:\NOPP\DEMO.ASM 27 : Found label after column 1. (tris)
+Error[122]   C:\NOPP\DEMO.ASM 27 : Illegal opcode (PORTB)
+Error[122]   C:\NOPP\DEMO.ASM 33 : Illegal opcode (rlf)
+Error[113]   C:\NOPP\DEMO.ASM 47 : Symbol not previously defined (mloop)
