@@ -1,2 +1,2 @@
-# KS5-Thesis
-School Thesis
+# KS5 Project
+B. S. Computer Engineering Thesis (Design Project)
