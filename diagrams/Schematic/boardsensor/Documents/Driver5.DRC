@@ -1,0 +1,64 @@
+Protel Design System Design Rule Check
+PCB File : \Thesis\diagrams\Schematic\boardsensor\Documents\Driver5.PcbDoc
+Date     : 3/23/2005
+Time     : 2:59:54 AM
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=25mm) (Preferred=0.254mm) (All)
+   Violation         Track (208mm,156mm)(208mm,157mm)  Top Layer  Actual Width = 0.2mm
+   Violation         Track (208mm,156mm)(209mm,156mm)  Top Layer  Actual Width = 0.2mm
+   Violation         Track (311mm,156mm)(312mm,156mm)  Top Layer  Actual Width = 0.2mm
+   Violation         Track (312mm,156mm)(312mm,157mm)  Top Layer  Actual Width = 0.2mm
+   Violation         Track (208mm,291mm)(208mm,292mm)  Top Layer  Actual Width = 0.2mm
+   Violation         Track (208mm,292mm)(209mm,292mm)  Top Layer  Actual Width = 0.2mm
+   Violation         Track (312mm,291mm)(312mm,292mm)  Top Layer  Actual Width = 0.2mm
+   Violation         Track (311mm,292mm)(312mm,292mm)  Top Layer  Actual Width = 0.2mm
+Rule Violations :8
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))
+   Violation between Small Component D4(276.5mm,170mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component D1(305mm,170mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component D2(290.73mm,166.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component D3(290.98mm,176.75mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component D6(247.25mm,170mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component D5(233mm,177mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component D7(219mm,169.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component D8(233mm,166.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component Q1(282.65mm,196.675mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component Q2(282.625mm,222.375mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component Q3(240.675mm,197.45mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component Q4(240.75mm,222.45mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between DIP Component U4(283.5mm,243.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component R31(293.5mm,273.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component R11(239mm,241.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component R13(228.5mm,241.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between SIP Component JP1(285.75mm,262mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between DIP Component U7(260.5mm,243.25mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between DIP Component U11(233.318mm,252.818mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between DIP Component U14(260.5mm,271.75mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between DIP Component U15(260.5mm,259.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between SIP Component JP7(268mm,173.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component R1(301mm,243mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component R10(244mm,241.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component R2(261.75mm,166.25mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between DIP Component U9(233.068mm,266.568mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+   Violation between Small Component R7(274mm,262.5mm) on Top Layer and                      Room Driver (Bounding Region = (225.262mm, 383.686mm, 276.062mm, 409.086mm) (InComponentClass('Driver'))   
+Rule Violations :27
+
+
+Violations Detected : 35
+Time Elapsed        : 00:00:00

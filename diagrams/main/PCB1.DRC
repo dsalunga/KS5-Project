@@ -1,0 +1,134 @@
+Protel Design System Design Rule Check
+PCB File : \Program Files\Altium\Examples\PCB1.PcbDoc
+Date     : 3/29/2005
+Time     : 12:51:46 AM
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+   Violation         Net +12V   is broken into 2 sub-nets. Routed To 87.50%
+     Subnet : CON ATX-10 CON DRVY-1 C12V-1   CON DRVZ-1 CON DRVX-1      Subnet : DEM-2    CON EE-6    Violation         Net GND   is broken into 4 sub-nets. Routed To 94.34%
+     Subnet : CBUFF1-2 CVDD1-2  CON ATX-7 UBUFF1-19 UBUFF1-1 UBUFF2-19 UBUFF2-1 UINV-7   CBUFF2-1 QSH-1                  USH-8    UBUFF2-10 LPT-33   QIND-1   LPT-30   USH-15   CON SWP-6 CSH-1    QPO-3         Subnet : UMUX-19  CMUX-2   CON BS2P-3 UMUX-18  UMUX-12  CON BS1P-3 C12V-2   CON BMP-9 CON ATX-5 CON ATX-16               LEDVSB2-2 CON ATX-17 LEDVSB1-2      Subnet : UBUFF1-10 CON DRVX-3 CON DRVZ-3 CON DRVY-3 C1-1     C4-1     JP PWR-OFF-1 C5-1     CON ATX-15 PICY-5                 CZ3-1    CON HOME-2 CON HOME-1 CZ2-1    CON EE-1 Q LASER-1 CZ1-1         Subnet : CVDD-2   CON ATX-3 CON ATX-13 QEM-3    PICZ-5      Violation         Net MUX INPUT   is broken into 3 sub-nets. Routed To 66.67%
+     Subnet : LPT-11        Subnet :      Subnet : RSHP-1   QSH-3       Violation         Net NetPICY_7   is broken into 2 sub-nets. Routed To 75.00%
+     Subnet : PICZ-7   PICY-7        Subnet : UINV-2      Violation         Net PIC2 OUT   is broken into 2 sub-nets. Routed To 66.67%
+     Subnet : LPT-13        Subnet : PICY-8      Violation         Net PIC3 OUT   is broken into 2 sub-nets. Routed To 66.67%
+     Subnet : LPT-12        Subnet : PICZ-8      Violation         Net PWR-OK   is broken into 2 sub-nets. Routed To 75.00%
+     Subnet : CON ATX-8      Subnet : DPO-1    LPT-10      Violation         Net VDD   is broken into 5 sub-nets. Routed To 91.30%
+     Subnet : QMUX12-1 QMUX6-1  QMUX11-1 QMUX10-1 QMUX8-1  QMUX9-1  QMUX7-1  QMUX5-1  QMUX4-1  QMUX3-1                QMUX2-1  QMUX1-1  CVDD-1   CON ATX-4 CON DRVY-2 RMCLRZ-2 RLASERL-2 RLDR2-2  RLDR1-2  CON DRVZ-2 CON DRVX-2               QMUX13-1 PICZ-14  CZ1-2    RHZ-2         Subnet : CMUX-1   UMUX-24  CON ATX-6      Subnet : CON ATX-20 RVSB2-1  RVSB1-1       Subnet : CON ATX-19      Subnet : RINDL-2  RSHP-2   CSH-2    UINV-14  USH-16   RBP1-2   RBP2-2   RBP3-2   RBP4-2   RBP5-2                 RBP6-2   RBP7-2   RBP8-2      Violation         Net VSB   is broken into 2 sub-nets. Routed To 92.31%
+     Subnet : CVDD1-1  CBUFF1-1 CON ATX-9 UBUFF1-20 RPOL-2   CBUFF2-2 UBUFF2-20      Subnet : RMCLRY-2 PICY-14  C1-2     RHY-2    RPWROFF-2 Rule Violations :9
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=10mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))
+   Violation between Small Component RLASERL(78mm,99.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between DIP Component UINV(151.625mm,47.5mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between DIP Component UBUFF1(80.5mm,38.75mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component C1(128.915mm,91.4mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component C4(128.75mm,104.375mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component C5(131.665mm,97.4mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component C12V(51.7mm,86.35mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component CMUX(57.75mm,32.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON BMD(144.63mm,97.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON BMP(81mm,76.75mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON BS1D(144.63mm,89.375mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component CON BS1P(46.75mm,76.75mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON BS2D(144.63mm,81.5mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component CON BS2P(36.25mm,76.75mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON DRVX(112.25mm,62.125mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON DRVY(134.25mm,73.5mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON DRVZ(114.375mm,70.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON EE(93.37mm,108.525mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON HOME(102.62mm,102.615mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON SWD(144.63mm,73.625mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SIP Component CON SWP(116.5mm,50mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component CVDD(66mm,86.65mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component CZ1(105.75mm,83.75mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component CZ2(108.125mm,90.125mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component CZ3(103.79mm,97.775mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component DEM(79.625mm,91.125mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component DPO(103.125mm,54.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component JP PWR-OFF(130.375mm,109.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component LEDVSB1(46.175mm,112.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component LEDVSB2(46.175mm,110.125mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between DIP Component PICZ(93.902mm,88.439mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QEM(78.87mm,86.4mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QIND(129.5mm,44.375mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component Q LASER(99.75mm,108.375mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX1(89mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX2(83.75mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX3(78.5mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX4(73.25mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX5(68mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX6(62.75mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX7(57.5mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX8(52.25mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX9(47mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX10(41.75mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX11(36.5mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX12(31.25mm,68.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QMUX13(103.25mm,48.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QPO(128.25mm,58.375mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component QSH(164.13mm,56.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RBP1(144.814mm,105.985mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RBP2(147.354mm,105.985mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RBP3(149.894mm,105.985mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RBP4(152.434mm,105.985mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RBP5(154.974mm,105.985mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RBP6(157.514mm,105.985mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RBP7(160.054mm,105.985mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RBP8(162.594mm,105.985mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component REM(80.1mm,82.15mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RHY(130.165mm,87.9mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RHZ(105.875mm,80.75mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RINDB(136.75mm,42.625mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RINDL(127.375mm,54.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RLASER(93.875mm,102.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RLDR1(83.495mm,100.525mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RLDR2(80.745mm,100.525mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMCLRY(118.245mm,106.99mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMCLRZ(86.165mm,100.525mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX1(89mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX2(83.75mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX3(78.5mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX4(73.25mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX5(68mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX6(62.75mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX7(57.5mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX8(52.25mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX9(47mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX10(41.75mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX11(36.5mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX12(31.25mm,61mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RMUX13(95.875mm,48.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RPOB(118.875mm,58.125mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RPOL(132.5mm,62.125mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RPWROFF(130.245mm,84.99mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RSHB(157.13mm,56.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RSHP(146mm,56.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RVSB1(35.425mm,112.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component RVSB2(35.425mm,110.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between DIP Component USH(153.38mm,64.125mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component XY(127.375mm,95.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between SMT Small Component CSH(140.63mm,63.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Component LPT(109.78mm,37.286mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between DIP Component UMUX(44.978mm,42.774mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between DIP Component UBUFF2(148mm,35.75mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between DIP Component PICY(119.375mm,92.625mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between Small Component XZ(102.625mm,87.875mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+   Violation between DIP Component CON ATX(30.375mm,97.25mm) on Top Layer and                      Room MAIN2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('MAIN2'))   
+Rule Violations :96
+
+
+Violations Detected : 105
+Time Elapsed        : 00:00:01

@@ -1,0 +1,199 @@
+Protel Design System Design Rule Check
+PCB File : \Program Files\Altium\Examples\LPTCON.PCBDOC
+Date     : 3/29/2005
+Time     : 12:54:04 AM
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+   Violation         Track (96.324mm,83.24mm)(97.72mm,83.24mm)  Top Layer  Actual Width = 1mm
+   Violation         Track (96.292mm,91.48mm)(97.502mm,91.48mm)  Top Layer  Actual Width = 1mm
+   Violation         Track (97.502mm,83.458mm)(97.502mm,91.48mm)  Top Layer  Actual Width = 1mm
+   Violation         Track (96.252mm,80.9581mm)(96.47mm,80.74mm)  Top Layer  Actual Width = 1mm
+   Violation         Track (96.252mm,80.9581mm)(96.252mm,93.98mm)  Top Layer  Actual Width = 1mm
+   Violation         Track (97.464mm,83.24mm)(97.72mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (106.252mm,93.98mm)(106.252mm,96.44mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (103.632mm,99.06mm)(106.252mm,96.44mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (93.98mm,99.06mm)(103.632mm,99.06mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (91.44mm,96.52mm)(93.98mm,99.06mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (91.44mm,78.232mm)(91.44mm,96.52mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (91.44mm,78.232mm)(93.98mm,75.692mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (93.98mm,75.692mm)(104.648mm,75.692mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (104.648mm,75.692mm)(106.47mm,77.514mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (106.47mm,77.514mm)(106.47mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (103.97mm,78.062mm)(103.97mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (102.616mm,76.708mm)(103.97mm,78.062mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (94.488mm,76.708mm)(102.616mm,76.708mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (92.456mm,78.74mm)(94.488mm,76.708mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (92.456mm,78.74mm)(92.456mm,96.012mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (92.456mm,96.012mm)(94.488mm,98.044mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (94.488mm,98.044mm)(101.092mm,98.044mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (101.092mm,98.044mm)(103.752mm,95.384mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (103.752mm,93.98mm)(103.752mm,95.384mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (101.47mm,78.61mm)(101.47mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (100.584mm,77.724mm)(101.47mm,78.61mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (94.996mm,77.724mm)(100.584mm,77.724mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (93.472mm,79.248mm)(94.996mm,77.724mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (93.472mm,79.248mm)(93.472mm,95.504mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (93.472mm,95.504mm)(94.996mm,97.028mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (94.996mm,97.028mm)(99.06mm,97.028mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (99.06mm,97.028mm)(101.252mm,94.836mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (101.252mm,93.98mm)(101.252mm,94.836mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (98.97mm,79.666mm)(98.97mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (98.044mm,78.74mm)(98.97mm,79.666mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (96.012mm,78.74mm)(98.044mm,78.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (94.488mm,80.264mm)(96.012mm,78.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (94.488mm,80.264mm)(94.488mm,94.996mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (94.488mm,94.996mm)(95.504mm,96.012mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (95.504mm,96.012mm)(97.028mm,96.012mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (97.028mm,96.012mm)(98.752mm,94.288mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (98.752mm,93.98mm)(98.752mm,94.288mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (108.752mm,93.98mm)(108.752mm,98.084mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (108.752mm,98.084mm)(110.744mm,100.076mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (110.744mm,100.076mm)(123.952mm,100.076mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (123.952mm,100.076mm)(127.508mm,96.52mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (127.508mm,77.724mm)(127.508mm,96.52mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (124.46mm,74.676mm)(127.508mm,77.724mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (113.792mm,74.676mm)(124.46mm,74.676mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (108.97mm,79.498mm)(113.792mm,74.676mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (108.97mm,79.498mm)(108.97mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (111.47mm,78.522mm)(111.47mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (111.47mm,78.522mm)(114.3mm,75.692mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (114.3mm,75.692mm)(123.952mm,75.692mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (123.952mm,75.692mm)(126.492mm,78.232mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (126.492mm,78.232mm)(126.492mm,96.012mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (123.444mm,99.06mm)(126.492mm,96.012mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (113.284mm,99.06mm)(123.444mm,99.06mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (111.252mm,97.028mm)(113.284mm,99.06mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (111.252mm,93.98mm)(111.252mm,97.028mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (113.752mm,93.98mm)(113.752mm,96.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (113.752mm,96.48mm)(115.316mm,98.044mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (115.316mm,98.044mm)(122.936mm,98.044mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (122.936mm,98.044mm)(125.476mm,95.504mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (125.476mm,78.74mm)(125.476mm,95.504mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (123.444mm,76.708mm)(125.476mm,78.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (116.84mm,76.708mm)(123.444mm,76.708mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (113.97mm,79.578mm)(116.84mm,76.708mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (113.97mm,79.578mm)(113.97mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (116.47mm,78.602mm)(116.47mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (116.47mm,78.602mm)(117.348mm,77.724mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (117.348mm,77.724mm)(122.936mm,77.724mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (122.936mm,77.724mm)(124.46mm,79.248mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (124.46mm,79.248mm)(124.46mm,94.996mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (122.428mm,97.028mm)(124.46mm,94.996mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (118.364mm,97.028mm)(122.428mm,97.028mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (116.252mm,94.916mm)(118.364mm,97.028mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (116.252mm,93.98mm)(116.252mm,94.916mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (118.97mm,79.15mm)(118.97mm,80.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (118.97mm,79.15mm)(119.38mm,78.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (119.38mm,78.74mm)(122.428mm,78.74mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (122.428mm,78.74mm)(123.444mm,79.756mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (123.444mm,79.756mm)(123.444mm,94.488mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (121.92mm,96.012mm)(123.444mm,94.488mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (119.38mm,96.012mm)(121.92mm,96.012mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (118.752mm,95.384mm)(119.38mm,96.012mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (118.752mm,93.98mm)(118.752mm,95.384mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (121.47mm,80.74mm)(122.428mm,81.6979mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (122.428mm,81.6979mm)(122.428mm,92.804mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (121.252mm,93.98mm)(122.428mm,92.804mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (120.002mm,83.458mm)(120.22mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (120.002mm,83.458mm)(120.002mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (117.502mm,83.458mm)(117.72mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (117.502mm,83.458mm)(117.502mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (115.002mm,83.458mm)(115.22mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (115.002mm,83.458mm)(115.002mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (112.502mm,83.458mm)(112.72mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (112.502mm,83.458mm)(112.502mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (110.002mm,83.458mm)(110.22mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (110.002mm,83.458mm)(110.002mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (107.502mm,83.458mm)(107.72mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (107.502mm,83.458mm)(107.502mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (105.002mm,83.458mm)(105.22mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (105.002mm,83.458mm)(105.002mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (102.502mm,83.458mm)(102.72mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (102.502mm,83.458mm)(102.502mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (100.002mm,83.458mm)(100.22mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (100.002mm,83.458mm)(100.002mm,91.48mm)  Top Layer  Actual Width = 0.5mm
+   Violation         Track (97.502mm,83.458mm)(97.72mm,83.24mm)  Top Layer  Actual Width = 0.5mm
+Rule Violations :109
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Track (96.252mm,80.9581mm)(96.252mm,93.98mm)  Top Layer and                      Pad LPT1-33(96.252mm,93.98mm)  Top Layer   
+   Violation between Track (98.752mm,93.98mm)(98.752mm,94.288mm)  Top Layer and                      Pad LPT1-18(98.752mm,93.98mm)  Top Layer   
+   Violation between Track (97.028mm,96.012mm)(98.752mm,94.288mm)  Top Layer and                      Pad LPT1-18(98.752mm,93.98mm)  Top Layer   
+   Violation between Track (101.252mm,93.98mm)(101.252mm,94.836mm)  Top Layer and                      Pad LPT1-35(101.252mm,93.98mm)  Top Layer   
+   Violation between Track (99.06mm,97.028mm)(101.252mm,94.836mm)  Top Layer and                      Pad LPT1-35(101.252mm,93.98mm)  Top Layer   
+   Violation between Track (106.252mm,93.98mm)(106.252mm,96.44mm)  Top Layer and                      Pad LPT1-32(106.252mm,93.98mm)  Top Layer   
+   Violation between Track (108.752mm,93.98mm)(108.752mm,98.084mm)  Top Layer and                      Pad LPT1-31(108.752mm,93.98mm)  Top Layer   
+   Violation between Track (111.252mm,93.98mm)(111.252mm,97.028mm)  Top Layer and                      Pad LPT1-1(111.252mm,93.98mm)  Top Layer   
+   Violation between Track (116.252mm,93.98mm)(116.252mm,94.916mm)  Top Layer and                      Pad LPT1-3(116.252mm,93.98mm)  Top Layer   
+   Violation between Track (116.252mm,94.916mm)(118.364mm,97.028mm)  Top Layer and                      Pad LPT1-3(116.252mm,93.98mm)  Top Layer   
+   Violation between Track (118.752mm,93.98mm)(118.752mm,95.384mm)  Top Layer and                      Pad LPT1-4(118.752mm,93.98mm)  Top Layer   
+   Violation between Track (121.252mm,93.98mm)(122.428mm,92.804mm)  Top Layer and                      Pad LPT1-5(121.252mm,93.98mm)  Top Layer   
+   Violation between Track (96.252mm,80.9581mm)(96.252mm,93.98mm)  Top Layer and                      Pad LPT1-30(97.502mm,91.48mm)  Top Layer   
+   Violation between Track (97.502mm,83.458mm)(97.502mm,91.48mm)  Top Layer and                      Pad LPT1-30(97.502mm,91.48mm)  Top Layer   
+   Violation between Track (96.292mm,91.48mm)(97.502mm,91.48mm)  Top Layer and                      Pad LPT1-30(97.502mm,91.48mm)  Top Layer   
+   Violation between Track (100.002mm,83.458mm)(100.002mm,91.48mm)  Top Layer and                      Pad LPT1-14(100.002mm,91.48mm)  Top Layer   
+   Violation between Track (102.502mm,83.458mm)(102.502mm,91.48mm)  Top Layer and                      Pad LPT1-13(102.502mm,91.48mm)  Top Layer   
+   Violation between Track (105.002mm,83.458mm)(105.002mm,91.48mm)  Top Layer and                      Pad LPT1-12(105.002mm,91.48mm)  Top Layer   
+   Violation between Track (107.502mm,83.458mm)(107.502mm,91.48mm)  Top Layer and                      Pad LPT1-11(107.502mm,91.48mm)  Top Layer   
+   Violation between Track (110.002mm,83.458mm)(110.002mm,91.48mm)  Top Layer and                      Pad LPT1-10(110.002mm,91.48mm)  Top Layer   
+   Violation between Track (112.502mm,83.458mm)(112.502mm,91.48mm)  Top Layer and                      Pad LPT1-9(112.502mm,91.48mm)  Top Layer   
+   Violation between Track (115.002mm,83.458mm)(115.002mm,91.48mm)  Top Layer and                      Pad LPT1-8(115.002mm,91.48mm)  Top Layer   
+   Violation between Track (117.502mm,83.458mm)(117.502mm,91.48mm)  Top Layer and                      Pad LPT1-7(117.502mm,91.48mm)  Top Layer   
+   Violation between Track (120.002mm,83.458mm)(120.002mm,91.48mm)  Top Layer and                      Pad LPT1-6(120.002mm,91.48mm)  Top Layer   
+   Violation between Track (113.752mm,93.98mm)(113.752mm,96.48mm)  Top Layer and                      Pad LPT1-2(113.752mm,93.98mm)  Top Layer   
+   Violation between Track (103.752mm,93.98mm)(103.752mm,95.384mm)  Top Layer and                      Pad LPT1-36(103.752mm,93.98mm)  Top Layer   
+   Violation between Track (113.97mm,79.578mm)(116.84mm,76.708mm)  Top Layer and                      Pad LPT-36(113.97mm,80.74mm)  Top Layer   
+   Violation between Track (113.97mm,79.578mm)(113.97mm,80.74mm)  Top Layer and                      Pad LPT-36(113.97mm,80.74mm)  Top Layer   
+   Violation between Track (103.97mm,78.062mm)(103.97mm,80.74mm)  Top Layer and                      Pad LPT-2(103.97mm,80.74mm)  Top Layer   
+   Violation between Track (96.252mm,80.9581mm)(96.252mm,93.98mm)  Top Layer and                      Pad LPT-6(97.72mm,83.24mm)  Top Layer   
+   Violation between Track (97.502mm,83.458mm)(97.502mm,91.48mm)  Top Layer and                      Pad LPT-6(97.72mm,83.24mm)  Top Layer   
+   Violation between Track (97.464mm,83.24mm)(97.72mm,83.24mm)  Top Layer and                      Pad LPT-6(97.72mm,83.24mm)  Top Layer   
+   Violation between Track (96.324mm,83.24mm)(97.72mm,83.24mm)  Top Layer and                      Pad LPT-6(97.72mm,83.24mm)  Top Layer   
+   Violation between Track (97.502mm,83.458mm)(97.72mm,83.24mm)  Top Layer and                      Pad LPT-6(97.72mm,83.24mm)  Top Layer   
+   Violation between Track (100.002mm,83.458mm)(100.002mm,91.48mm)  Top Layer and                      Pad LPT-7(100.22mm,83.24mm)  Top Layer   
+   Violation between Track (100.002mm,83.458mm)(100.22mm,83.24mm)  Top Layer and                      Pad LPT-7(100.22mm,83.24mm)  Top Layer   
+   Violation between Track (102.502mm,83.458mm)(102.502mm,91.48mm)  Top Layer and                      Pad LPT-8(102.72mm,83.24mm)  Top Layer   
+   Violation between Track (102.502mm,83.458mm)(102.72mm,83.24mm)  Top Layer and                      Pad LPT-8(102.72mm,83.24mm)  Top Layer   
+   Violation between Track (105.002mm,83.458mm)(105.002mm,91.48mm)  Top Layer and                      Pad LPT-9(105.22mm,83.24mm)  Top Layer   
+   Violation between Track (105.002mm,83.458mm)(105.22mm,83.24mm)  Top Layer and                      Pad LPT-9(105.22mm,83.24mm)  Top Layer   
+   Violation between Track (107.502mm,83.458mm)(107.502mm,91.48mm)  Top Layer and                      Pad LPT-10(107.72mm,83.24mm)  Top Layer   
+   Violation between Track (107.502mm,83.458mm)(107.72mm,83.24mm)  Top Layer and                      Pad LPT-10(107.72mm,83.24mm)  Top Layer   
+   Violation between Track (110.002mm,83.458mm)(110.002mm,91.48mm)  Top Layer and                      Pad LPT-11(110.22mm,83.24mm)  Top Layer   
+   Violation between Track (110.002mm,83.458mm)(110.22mm,83.24mm)  Top Layer and                      Pad LPT-11(110.22mm,83.24mm)  Top Layer   
+   Violation between Track (112.502mm,83.458mm)(112.502mm,91.48mm)  Top Layer and                      Pad LPT-12(112.72mm,83.24mm)  Top Layer   
+   Violation between Track (112.502mm,83.458mm)(112.72mm,83.24mm)  Top Layer and                      Pad LPT-12(112.72mm,83.24mm)  Top Layer   
+   Violation between Track (115.002mm,83.458mm)(115.002mm,91.48mm)  Top Layer and                      Pad LPT-13(115.22mm,83.24mm)  Top Layer   
+   Violation between Track (115.002mm,83.458mm)(115.22mm,83.24mm)  Top Layer and                      Pad LPT-13(115.22mm,83.24mm)  Top Layer   
+   Violation between Track (117.502mm,83.458mm)(117.502mm,91.48mm)  Top Layer and                      Pad LPT-14(117.72mm,83.24mm)  Top Layer   
+   Violation between Track (117.502mm,83.458mm)(117.72mm,83.24mm)  Top Layer and                      Pad LPT-14(117.72mm,83.24mm)  Top Layer   
+   Violation between Track (120.002mm,83.458mm)(120.002mm,91.48mm)  Top Layer and                      Pad LPT-30(120.22mm,83.24mm)  Top Layer   
+   Violation between Track (120.002mm,83.458mm)(120.22mm,83.24mm)  Top Layer and                      Pad LPT-30(120.22mm,83.24mm)  Top Layer   
+   Violation between Track (96.252mm,80.9581mm)(96.252mm,93.98mm)  Top Layer and                      Pad LPT-5(96.47mm,80.74mm)  Top Layer   
+   Violation between Track (96.252mm,80.9581mm)(96.47mm,80.74mm)  Top Layer and                      Pad LPT-5(96.47mm,80.74mm)  Top Layer   
+   Violation between Track (98.044mm,78.74mm)(98.97mm,79.666mm)  Top Layer and                      Pad LPT-4(98.97mm,80.74mm)  Top Layer   
+   Violation between Track (98.97mm,79.666mm)(98.97mm,80.74mm)  Top Layer and                      Pad LPT-4(98.97mm,80.74mm)  Top Layer   
+   Violation between Track (101.47mm,78.61mm)(101.47mm,80.74mm)  Top Layer and                      Pad LPT-3(101.47mm,80.74mm)  Top Layer   
+   Violation between Track (106.47mm,77.514mm)(106.47mm,80.74mm)  Top Layer and                      Pad LPT-1(106.47mm,80.74mm)  Top Layer   
+   Violation between Track (108.97mm,79.498mm)(113.792mm,74.676mm)  Top Layer and                      Pad LPT-31(108.97mm,80.74mm)  Top Layer   
+   Violation between Track (108.97mm,79.498mm)(108.97mm,80.74mm)  Top Layer and                      Pad LPT-31(108.97mm,80.74mm)  Top Layer   
+   Violation between Track (111.47mm,78.522mm)(111.47mm,80.74mm)  Top Layer and                      Pad LPT-32(111.47mm,80.74mm)  Top Layer   
+   Violation between Track (116.47mm,78.602mm)(116.47mm,80.74mm)  Top Layer and                      Pad LPT-35(116.47mm,80.74mm)  Top Layer   
+   Violation between Track (118.97mm,79.15mm)(118.97mm,80.74mm)  Top Layer and                      Pad LPT-18(118.97mm,80.74mm)  Top Layer   
+   Violation between Track (121.47mm,80.74mm)(122.428mm,81.6979mm)  Top Layer and                      Pad LPT-33(121.47mm,80.74mm)  Top Layer   
+Rule Violations :64
+
+
+Violations Detected : 173
+Time Elapsed        : 00:00:01
